@@ -1,0 +1,27 @@
+﻿Build started 2014/3/5 下午 02:23:47.
+     1>Project "C:\Users\acer\Desktop\UCLA\Freshman Q2\CS 31\Project 4 copy 1\Project 4 copy 1\Project 4 copy 1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt array.cpp
+         array.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2761): warning C4996: 'std::_Fill_n': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(2747) : see declaration of 'std::_Fill_n'
+                 c:\users\acer\desktop\ucla\freshman q2\cs 31\project 4 copy 1\project 4 copy 1\array.cpp(60) : see reference to function template instantiation '_OutIt std::fill_n<char*,unsigned int,int>(_OutIt,_Diff,const _Ty &)' being compiled
+                 with
+                 [
+                     _OutIt=char *,
+                     _Diff=unsigned int,
+                     _Ty=int
+                 ]
+     1>c:\users\acer\desktop\ucla\freshman q2\cs 31\project 4 copy 1\project 4 copy 1\array.cpp(395): warning C4715: 'moveToEnd' : not all control paths return a value
+     1>c:\users\acer\desktop\ucla\freshman q2\cs 31\project 4 copy 1\project 4 copy 1\array.cpp(350): warning C4715: 'count' : not all control paths return a value
+     1>c:\users\acer\desktop\ucla\freshman q2\cs 31\project 4 copy 1\project 4 copy 1\array.cpp(541): warning C4715: 'takeSides' : not all control paths return a value
+     1>c:\users\acer\desktop\ucla\freshman q2\cs 31\project 4 copy 1\project 4 copy 1\array.cpp(376): warning C4715: 'findFirst' : not all control paths return a value
+     1>c:\users\acer\desktop\ucla\freshman q2\cs 31\project 4 copy 1\project 4 copy 1\array.cpp(416): warning C4715: 'firstInequality' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\acer\Desktop\UCLA\Freshman Q2\CS 31\Project 4 copy 1\Debug\Project 4 copy 1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\acer\Desktop\UCLA\Freshman Q2\CS 31\Project 4 copy 1\Debug\Project 4 copy 1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\acer\Desktop\UCLA\Freshman Q2\CS 31\Project 4 copy 1\Debug\Project 4 copy 1.lib" /MACHINE:X86 Debug\array.obj
+         Project 4 copy 1.vcxproj -> C:\Users\acer\Desktop\UCLA\Freshman Q2\CS 31\Project 4 copy 1\Debug\Project 4 copy 1.exe
+     1>Done Building Project "C:\Users\acer\Desktop\UCLA\Freshman Q2\CS 31\Project 4 copy 1\Project 4 copy 1\Project 4 copy 1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.81
